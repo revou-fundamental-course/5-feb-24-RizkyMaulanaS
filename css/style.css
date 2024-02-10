@@ -1,0 +1,63 @@
+.navbar{
+    display: flex;
+}
+.yt{
+    margin-right: 5px;
+}
+.ig{
+    margin-right: 5px;
+}
+.git{
+    margin-right: 5px;
+}
+.linkedin{
+    margin-right: 5px;
+}
+
+.inputC{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.inputF{
+    display: flex;
+    margin-bottom:5px ;
+    margin-top: 5px;
+
+    
+}
+.button{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.convert{
+    margin-right: 5px;
+    padding: 2px;
+}
+.reset{
+    margin-right: 5px;
+    padding: 2px;
+}
+.reverse{
+    padding: 2px;
+}
+.cara{
+    display: flex;
+    margin-top: 5px;
+    
+}
+.ftoc{
+    display: flex;
+    color: rebeccapurple;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.mid{
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
