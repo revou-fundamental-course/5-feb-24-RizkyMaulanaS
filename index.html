@@ -5,36 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RevoU Project</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
-    <div class="social">Social Media</div>
-    <div class="navbar">
-        <div class="yt">Youtube</div>
-        <div class="ig">Instagram</div>
-        <div class="git">GitHub</div>
-        <div class="linkedin">LinkedIn</div>
-        <div class="x">X</div>
+    <div class="title">
+        <h1>Kalkulator Konversi Suhu</h1>
     </div>
-    <div class="upper">Masukkan suhu derajat Celsius (°C) ke kotak dibawah,lalu klik tombol Konversi untuk mendapatkan hasil Konversi dalam bentuk Fahrenheit (°F)</div>
-    <p>Celsius (°C) :
-        <input class = "inputC" type="number">
-    </p>
+    <div class="container">Masukkan suhu derajat Celsius (℃) ke kotak dibawah,lalu klik tombol Konversi untuk mendapatkan hasil Konversi dalam bentuk Fahrenheit (℉)</div>
+    <p>Celsius (℃) :</p>
+    <textarea id = "inputC" class = "inputC" type="number" required></textarea>
     <div class="button">
-        <button class="convert">Konversi</button>
-        <button class="reset">Reset</button>
-        <button class="reverse">Reverse</button>
+        <button onclick = "convert()"class="convert">Konversi</button>
+        <button onclick="reset()" class="reset" >Reset</button>
+        <button onclick = "reverse()"class="reverse">Reverse</button>
         </div>
     </div>
-    <p>Fahrenheit (°F) :
-        <input class="inputF" type="number">
-    </p>
-    <p>Cara kalkulasi :
-        <input class="cara" type="text">
-    </p>
-    <span class="ftoc">Fahrenheit ke Celsius</span>
-    <span class="mid">Cara Konversi Dari Celsius (°C)ke Fahrenheit (°F)</span>
-    <span class="expl">Suhu S dalam derajat Fahrenheit (°F) sama dengan  suhu S dalam derajat Celsius (°C) kali 9/5 tambah 32</span>
-    <span class="rumus">S(°F) = (S(°C)x9/5) +32</span>
+    <p>Fahrenheit (℉) :</p>
+    <textarea id = "inputF" class="inputF" type="number" ></textarea>
+    <p>Cara kalkulasi :</p>
+    <textarea id = "cara" class="cara" type="text" readonly></textarea>
+    <span id= "ftoc" class="ftoc">Fahrenheit to Celsius</span>
+    <span class="mid">Cara Konversi Dari Celsius (℃) ke Fahrenheit (℉)</span>
+    <p>Suhu <b><i>S</i></b> dalam derajat Fahrenheit (℉) sama dengan  suhu <b><i>S</i></b> dalam derajat Celsius (℃) kali 9/5 tambah 32</p>
+    <p><b><i>S</i></b><sub>(℉)</sub> = (<b><i>S</i></b><sub>(℃)</sub> × 9/5) + 32</p>
+    <p>atau</p>
+    <p><b><i>S</i></b><sub>(℉)</sub> = (<b><i>S</i></b><sub>(℃)</sub> × 1.8) + 32</p>
 
     
 </body>

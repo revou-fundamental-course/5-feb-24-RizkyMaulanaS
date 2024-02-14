@@ -1,32 +1,40 @@
-.navbar{
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("assets/fonts/Poppins-Regular") format('truetype');
+}
+body{
+    background-color:lightgray;
+    font-family: Poppins-Regular,sans-serif;
+}
+.title{
     display: flex;
+    justify-content:start;
+    border-bottom: 2px solid gray;
 }
-.yt{
-    margin-right: 5px;
+.something{
+    padding :10px;
 }
-.ig{
-    margin-right: 5px;
-}
-.git{
-    margin-right: 5px;
-}
-.linkedin{
-    margin-right: 5px;
+.contact{
+    padding: 10px;
 }
 
-.inputC{
+.container{
     display: flex;
+    font-size: large;
+    margin-top: 10px;
+}
+.inputC{
     margin-bottom: 5px;
     margin-top: 5px;
-
+    height: 150px;
+    width: 350px;
+    
 }
-
 .inputF{
-    display: flex;
     margin-bottom:5px ;
     margin-top: 5px;
-
-    
+    height: 150px;
+    width: 350px;
 }
 .button{
     display: flex;
@@ -46,7 +54,8 @@
     padding: 2px;
 }
 .cara{
-    display: flex;
+    height: 150px;
+    width: 350px;
     margin-top: 5px;
     
 }
@@ -55,9 +64,13 @@
     color: rebeccapurple;
     margin-top: 5px;
     margin-bottom: 5px;
+
 }
 .mid{
     display: flex;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid grey;
     padding-bottom: 15px;
+    margin-bottom: 15px;
 }
+
+
